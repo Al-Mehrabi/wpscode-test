@@ -72,8 +72,8 @@ section{
 }
 
 section h2 {
-  border: 0.0625rem solid #ff6347;
-  background-color: rgb(4, 0, 255);
+  border: 0.0625rem solid #959090;
+  background-color: rgb(195, 195, 216);
 }
 
 .hero {
@@ -116,8 +116,19 @@ section h2 {
   max-width: 100%;
   border-radius: 0.625rem;
   margin-top: 1.25rem;
+  height: auto;
+  
 }
+header img{
+  display: block;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 30rem;
+  max-width: 100%;
+  height: auto;
 
+}
 footer {
   background-color: #2e8b57;
   color: #fff;
@@ -145,3 +156,4 @@ footer .social-links a img {
   width: 1.875rem;
   height: 1.875rem;
 }
+
